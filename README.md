@@ -42,15 +42,15 @@ your project is ready to give response:)
 
 F. AFTER CHOOSING YOUR ROLE PUT USERNAME AND PASSWORD
 
-TO ACCESS ALL ENDPOINTS  USING TWO WAYS 1 POSTMAN , 2 SWAGGER:
+#  TO ACCESS ALL ENDPOINTS  USING TWO WAYS 1 POSTMAN , 2 SWAGGER:
  # FOR POSTMAN:
 ALL REQUESTS:Type this link -
-POST: http://localhost:8080(Or your server port)/task/create
-GET : http://localhost:8080(Or your server port)/task/getAll
-GET : http://localhost:8080(Or your server port)/task/getTask/id
-PUT: http://localhost:8080(Or your server port)/task/update/id
-DELETE: http://localhost:8080(Or your server port)/task/delete/id 
-
+POST: http://localhost:8080/task/create
+GET : http://localhost:8080/task/getAll
+GET : http://localhost:8080/task/getTask/id
+PUT: http://localhost:8080/task/update/id
+DELETE: http://localhost:8080/task/delete/id 
+#  NOTE: PORT: 8080 IS BYDEFAULT,IF YOUR APPLICATION RUNNNING IN USE SO CHOOSE OTHER PORT
 TO ACCESS THESE:
 
 # OPEN POSTMAN -> GO TO AUTHORIZATION -> SELECT BASIC AUTH -> PUT ADMIN OR USER NAME AND ITS PASSWORD
@@ -58,7 +58,9 @@ TO ACCESS THESE:
 # NOTE: ADMIN CAN ACEESS ALL REQUESTS 
 
 # BY SWAGGER:
-USE THIS LINK BY PUTTING YOUR SERVER PORT:  http://localhost:YOUR SERVER PORT/swagger-ui/index.html
+USE THIS LINK BY PUTTING YOUR SERVER PORT:  http://localhost:8080/swagger-ui/index.html
+#  NOTE: PORT: 8080 IS BYDEFAULT,IF YOUR APPLICATION RUNNNING IN USE SO CHOOSE OTHER PORT
+
 
 # Sign In:
 user: your role(user or admin)
